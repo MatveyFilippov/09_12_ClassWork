@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Введите размерность массива: ");
         do{
             if(array_size < 0){
-                System.out.println("Размер массива должен быть больше 1");
+                System.out.println("Размер массива должен быть больше 0");
                 System.out.print("Введите размерность массива: ");
             }
             if (in.hasNextInt()){
